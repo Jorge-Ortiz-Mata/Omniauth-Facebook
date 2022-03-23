@@ -125,8 +125,8 @@ Type the next commands:
 
 1. In order to open your credentials: `EDITOR="code --wait" bin/rails credentials:edit`
 2. Add your keys:
-    2.1 facebook_id: 'All here'
-    2.2 facebook_secret: 'All here'
+- facebook_id: 'All here'
+- facebook_secret: 'All here'
 3. Save and close he file. You can see your credentials by typping this command: `rails credentials:show`
 
 ## Step 9. User controllers.
@@ -170,7 +170,7 @@ You can add this link in order to sign up using facebook account.
 
 Before to run the app in production, add the next variables:
 
-![](app/assets/images/image-5.PNG)
+![](app/assets/images/image-6.PNG)
 
 1. HEROKU_OAUTH_ID with a value of App ID you just copied from Facebook
 2. HEROKU_OAUTH_SECRET with a value of App Secret.
