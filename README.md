@@ -44,7 +44,7 @@ Type the next commands in the command prompt.
 
 1. Generate pages controller: `rails g controller pages home`
 2. Install devise: `rails g devise:install`
-3. Paste and add notice and alert messages.
+3. Add notice and alert messages.
 4. Generate User model: `rails g devise User`
 5. Generate devise views: `rails g devise:views`
 6. Run rails migrate: `rails db:migrate`
@@ -83,12 +83,15 @@ end
 1. Go to basic configuration and add the next options.
 
 ![](app/assets/images/image-3.PNG)
+
+Create a platform **website**
+
 ![](app/assets/images/image-4.PNG)
 
 2. And here paste 3 URL’s: 
-    2.1 Your website URL 
-    2.2 Your website URL plus /users/auth/facebook.
-    2.3 Your URL plus /users/auth/facebook/callback.
+3. Your website URL 
+4. Your website URL plus /users/auth/facebook.
+5. Your URL plus /users/auth/facebook/callback.
 
 ![](app/assets/images/image-5.PNG)
 
