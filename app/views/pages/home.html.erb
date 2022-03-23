@@ -4,5 +4,5 @@
     <%= current_user.email if current_user %>
 </p>
 <p>
-    <%= link_to "Register with Facebook", user_facebook_omniauth_authorize_path %>
+    <%= link_to "Register with Facebook", user_facebook_omniauth_authorize_path, method: :post %>
 </p>
