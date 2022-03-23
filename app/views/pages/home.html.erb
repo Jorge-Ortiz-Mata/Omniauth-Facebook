@@ -1,2 +1,8 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+<p>
+    <%= current_user.email if current_user %>
+</p>
+<p>
+    <%= link_to "Register with Facebook", user_facebook_omniauth_authorize_path %>
+</p>
