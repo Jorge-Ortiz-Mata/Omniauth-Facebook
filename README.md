@@ -61,12 +61,7 @@ Rails.application.routes.draw do
 end
 ```
 
- ### Step 4. Add AddOmniauthToUsers migration.
-
-1. Run a new migration by typing the next command: `rails g migration AddOmniauthToUsers provider:string uid:string`
-2. Type the command: `rails db:migrate`
-
-### Step 5. Create Facebook app.
+### Step 4. Create Facebook app.
 
 1. Go to https://developers.facebook.com/ and sign in.
 2. Go to my apps and create a new app.
@@ -78,7 +73,7 @@ end
 
 ![](app/assets/images/image-2.PNG)
 
-### Step 6. Configure Facebook app.
+### Step 5. Configure Facebook app.
 
 1. Go to basic configuration and add the next options.
 
@@ -97,7 +92,7 @@ Create a platform **website**
 
 After that, click in save changes.
 
- ### Step 7. User model.
+ ### Step 6. User model.
 
  Add the next code in your user model file.
 
@@ -114,6 +109,12 @@ After that, click in save changes.
   end
 end
  ```
+
+### Step 7. Add AddOmniauthToUsers migration.
+
+1. Run a new migration by typing the next command: `rails g migration AddOmniauthToUsers provider:string uid:string`
+2. Type the command: `rails db:migrate`
+
 ### Step 8. Adding credentials.
 
 Add the API ID and the SECRET KEY into your credentials file:
